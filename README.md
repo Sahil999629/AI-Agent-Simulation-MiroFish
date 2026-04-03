@@ -1,3 +1,22 @@
+# 🚀 AI Multi-Agent Simulation Architecture (Deployed & Patched)
+
+**Infrastructure & Deployment by Sahil**
+
+This repository contains a containerized deployment of a complex Multi-Agent AI architecture. I successfully deployed this application and engineered several critical backend patches to make it operational.
+
+### 🛠️ Key Technical Contributions:
+* **Containerization:** Managed and deployed the architecture using Docker and `docker-compose`.
+* **API Integration & Routing:** Integrated the OpenRouter API to handle complex LLM routing requests.
+* **Backend Troubleshooting:** Hot-patched `llm_client.py` to bypass strict LLM payload limits, allowing for massive token processing and continuous agent simulation without crashing.
+* **Security:** Implemented strict environment variable protection (`.env`) for secure credential management.
+
+---
+
+*(Original project documentation below)*
+
+
+
+
 <div align="center">
 
 <img src="./static/image/MiroFish_logo_compressed.jpeg" alt="MiroFish Logo" width="75%"/>
