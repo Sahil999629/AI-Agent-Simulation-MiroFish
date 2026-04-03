@@ -61,6 +61,7 @@ class LLMClient:
         if response_format:
             kwargs["response_format"] = response_format
         
+        kwargs['max_tokens'] = 8192
         response = self.client.chat.completions.create(**kwargs)
         content = response.choices[0].message.content
         # 部分模型（如MiniMax M2.5）会在content中包含<think>思考内容，需要移除
